@@ -32,7 +32,7 @@ int main()
 		graph[u].push_back(v);
 		graph[v].push_back(u);
 	}
-	for(i=1;i<=n;i++)
+	for(i=1;i<=n+3;i++)
 	{
 		sta.push_back(false);
 	}
